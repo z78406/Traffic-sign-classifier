@@ -32,10 +32,11 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
-![][https://github.com/z78406/Traffic-sign-classifier/blob/master/2.png]
+![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/2.png)
+
 
 Here is a visualization of eveery type of traffig signs.
-![][https://github.com/z78406/Traffic-sign-classifier/blob/master/1.png]
+![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/1.png)
 
 ### Design and Test a Model Architecture
 
