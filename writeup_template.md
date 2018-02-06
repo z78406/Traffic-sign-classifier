@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
-![](/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppm)
+
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
@@ -32,8 +32,10 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+![alt text][https://github.com/z78406/Traffic-sign-classifier/blob/master/2.png]
 
-![alt text][image1]
+Here is a visualization of eveery type of traffig signs.
+![alt text][/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppm]
 
 ### Design and Test a Model Architecture
 
