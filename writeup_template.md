@@ -99,11 +99,8 @@ I basically implement the architecture by adding and modifying on the LeNet arch
 
 Here are five German traffic signs that I found on the web, which is included in the test_german file:
 
-![alt text](https://github.com/z78406/Traffic-sign-classifier/tree/master/test_german/00195.ppm)
-![alt text](https://github.com/z78406/Traffic-sign-classifier/tree/master/test_german/00200.ppm) 
-![alt text](https://github.com/z78406/Traffic-sign-classifier/tree/master/test_german/00203.ppm) 
-![alt text](https://github.com/z78406/Traffic-sign-classifier/tree/master/test_german/00234.ppm) 
-![alt text](https://github.com/z78406/Traffic-sign-classifier/tree/master/test_german/00243.ppm)
+![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/3.png)
+
 
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
