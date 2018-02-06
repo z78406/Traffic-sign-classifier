@@ -32,10 +32,10 @@ signs data set:
 #### 2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
-![alt text][https://github.com/z78406/Traffic-sign-classifier/blob/master/2.png]
+![][https://github.com/z78406/Traffic-sign-classifier/blob/master/2.png]
 
 Here is a visualization of eveery type of traffig signs.
-![alt text][/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppm]
+![][https://github.com/z78406/Traffic-sign-classifier/blob/master/1.png]
 
 ### Design and Test a Model Architecture
 
