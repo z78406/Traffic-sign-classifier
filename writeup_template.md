@@ -25,7 +25,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5" 
-
+![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/1.png)
 ---
 ![](/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppm)
 ### Data Set Summary & Exploration
