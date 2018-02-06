@@ -25,9 +25,9 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5" 
-![Alt text](/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppmg?raw=true "Title")
----
 
+---
+![](/Users/Joe/Documents/Self-driving-nanodegree-Udacity/code/car/traffic_sign/traffic-signs-data/test_german/00195.ppm)
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
