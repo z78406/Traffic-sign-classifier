@@ -101,7 +101,9 @@ Here are five German traffic signs that I found on the web, which is included in
 
 ![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/3.png)
 
-
+For the speed limit sign, I think the difficulty comes from distiguishing the digits within the speed limit catagories.
+For the stop entry sign, I think the difficulty comes from distiguishing the signs from other types of prohibit signs.
+For the turn right sign, I think the difficulty comes from the lack of enogh samples in the dataset as other common signs.
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -109,31 +111,24 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| speed limit sign(50)     		| speed limit sign(50)   									| 
+| stop entry    			| stop entry 										|
+| speed limit sign(30) 				|speed limit sign(80) 										|
+| Turn right ahead      		| speed limit sign(80) 					 			|
+| speed limit sign(20) 		| speed limit sign(80)    							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 2 of the 5 traffic signs, which gives an accuracy of 40%. This compares much less accurate to the testing accuracy.
+Disccusion: The results seems to be disappointed. But it is reasonable. From the prediction result we can see that, the model can recognize the major class type like speed limit signs, but have some difficulty distinguishing the subtle categories, like 20 and 30 speed limit signs. And it also mistakenly identify the turn right sign. I believe some of the reasons come from the fact that the training iteration is not enuogh. I only train the NN in 20 iterations. More iterations may bring the result of more detailed classification. The second reason lies in the fact that I did not add data augmentation in the final because it is time consuming to run in CPU mode. Maybe I can test it later in GPU mode and see if it can bring a improvement in the classification. The third reason maybe that the data distribution is not equal, which means that some of the sign classes may not be recognized as enough as the others, resulting in the wrong classification.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+The prediction softmax probabilities are shown below:
+![alt text](https://github.com/z78406/Traffic-sign-classifier/blob/master/4.png)
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
-
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+From the output softmax probability we can find that for the first two new signs, the confidence is pretty high. Also the result is correct. Nevertheless, the last three new signs are predicted wrongly. All were considered class 5, which is speed limit 80. This indicates that the model need to be improved either increasing the iteration times or adding more layers. 
 
 
-For the second image ... 
 
 
 
